@@ -1,0 +1,132 @@
+[
+  { 
+    "title": "Read 10 chapters", 
+    "badge": "📚",
+    "trigger": {
+        "type": "chapter_completion",
+        "condition": {
+            "chaptersCompleted": 10
+        }
+    }
+  },
+  { 
+    "title": "Memorize 5 verses", 
+    "badge": "🧠",
+    "trigger": {
+        "type": "verse_memorization",
+        "condition": {
+            "versesCompleted": 5
+        }
+    }
+  },
+  { 
+    "title": "Complete a book", 
+    "badge": "🏆",
+    "trigger": {
+        "type": "book_completion",
+        "condition": {
+            "booksCompleted": 1
+        }
+    } 
+  },
+  { 
+    "title": "Read for 7 days straight", 
+    "badge": "⚡",
+    "trigger": {
+        "type": "login_streak",
+        "condition": {
+            "streak": 7
+        }
+    }
+  },
+  { 
+    "title": "Read 50 chapters", 
+    "badge": "📖" ,
+    "trigger": {
+        "type": "chapter_completion",
+        "condition": {
+            "chaptersCompleted": 50
+        }
+    }
+  },
+  { 
+    "title": "Read 100 verses", 
+    "badge": "📜",
+    "trigger": {
+        "type": "verse_memorization",
+        "condition": {
+            "versesCompleted": 100
+        }
+    }
+  },
+  { 
+    "title": "Complete 5 books", 
+    "badge": "👑",
+    "trigger": {
+        "type": "book_completion",
+        "condition": {
+            "booksCompleted": 5
+        }
+    }
+  },
+  { 
+    "title": "Read for 30 days straight", 
+    "badge": "⭐",
+    "trigger": {
+        "type": "login_streak",
+        "condition": {
+            "streak": 30
+        }
+    }
+  },
+  { 
+    "title": "Share 5 verses with friends", 
+    "badge": "💫",
+    "trigger": {
+        "type": "share_verse",
+        "condition": {
+            "versesShared": 5
+        }
+    }
+  },
+  { 
+    "title": "Share 10 verses with friends", 
+    "badge": "🎯",
+    "trigger": {
+        "type": "share_verse",
+        "condition": {
+            "versesShared": 10
+        }
+    }
+  },
+  { 
+    "title": "Read for 10 days", 
+    "badge": "🌟",
+    "trigger": {
+        "type": "login_streak",
+        "condition": {
+            "streak": 10
+        }
+    }
+  },
+  { 
+    "title": "Read for 50 days", 
+    "badge": "💎",
+    "trigger": {
+        "type": "login_streak",
+        "condition": {
+            "streak": 50
+        }
+    }
+  },
+  { 
+    "title": "Read for 100 days", 
+    "badge": "🏅",
+    "trigger": {
+        "type": "login_streak",
+        "condition": {
+            "streak": 100
+        }
+    }
+  }
+]
